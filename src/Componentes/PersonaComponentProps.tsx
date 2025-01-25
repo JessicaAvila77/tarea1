@@ -9,7 +9,7 @@ export default function PersonaComponentProps(props:Persona){
                 <h2>{props.nombre}</h2>
                 <ul>
                     <li>Ocupación: {props.ocupacion}</li>
-                    <li><strong>País:</strong> {props.pais}</li>
+                    <li>País:{props.pais}</li>
                 </ul>
              </div>
 
